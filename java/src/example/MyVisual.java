@@ -9,25 +9,28 @@ public class MyVisual extends Visual
 
     public void settings()
     {
-        size(1024, 500);
+        size(1024, 500, P3D);
+        //fullScreen(P3D);
         
         // Use this to make fullscreen
         //fullScreen();
 
         // Use this to make fullscreen and use P3D for 3D graphics
-        //fullScreen(P3D, SPAN); 
+        //  fullScreen(); 
     }
 
     public void setup()
     {
+        surface.setResizable(true);
+
         startMinim();
                 
         // Call loadAudio to load an audio file to process 
-        //loadAudio("heroplanet.mp3");   
+        loadAudio("heroplanet.mp3");   
 
         
         // Call this instead to read audio from the microphone
-        startListening(); 
+        //startListening(); 
         
         wf = new WaveForm(this);
         abv = new AudioBandsVisual(this);

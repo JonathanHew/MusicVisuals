@@ -8,9 +8,11 @@ public class CubeVisual extends Visual
 
     public void settings()
     {
-        size(800, 800, P3D);
+        size(800, 800);
         println("CWD: " + System.getProperty("user.dir"));
-        //fullScreen(P3D, SPAN);
+        //fullScreen(P3D);
+
+        surface.setResizable(true);
     }
 
     public void keyPressed()
