@@ -15,7 +15,7 @@ public class Circle
     {
         float c = PApplet.map(jv.getSmoothedAmplitude(), 0, 1, 0, 255);
         jv.stroke(c, 255, 255);        
-        jv.strokeWeight(2);
+        jv.strokeWeight(8);
         jv.noFill();
         //jv.fill(c, 255, 255);
         // See the difference lerping makes? It smooths out the jitteryness of average, so the visual looks smoother

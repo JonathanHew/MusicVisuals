@@ -3,14 +3,14 @@ package C19472842;
 import processing.core.*;
 
 
-public class Test 
+public class CircledSphere 
 {
     JonathansVisual jv;
     float cx=0;
     float cy=0;
     float angle =0;
 
-    public Test (JonathansVisual jv)
+    public CircledSphere (JonathansVisual jv)
     {
         this.jv = jv; 
         cx = this.jv.width;

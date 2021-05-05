@@ -14,6 +14,7 @@ public class JonathansVisual extends Visual
     Test test;
     CircleWaveForm cwf;
     BoxedSphere bsp;
+    CircledSphere csp;
 
     int which = 0;
 
@@ -39,6 +40,7 @@ public class JonathansVisual extends Visual
         test = new Test(this);
         cwf = new CircleWaveForm(this);
         bsp = new BoxedSphere(this);
+        csp = new CircledSphere(this);
     }
 
     public void keyPressed()
@@ -107,6 +109,11 @@ public class JonathansVisual extends Visual
                 bsp.render();
                 break;
             }//end case 4 
+            case 5:
+            {
+                csp.render();
+                break;
+            }
             case 6:
             {
                 
