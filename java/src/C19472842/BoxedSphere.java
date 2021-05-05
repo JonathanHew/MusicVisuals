@@ -4,7 +4,7 @@ import processing.core.*;
 
 import java.util.ArrayList;
 
-public class Test 
+public class BoxedSphere 
 {
     JonathansVisual jv;
     float cx = 0;
@@ -16,7 +16,7 @@ public class Test
     boolean moveup = true;
     boolean movedown = false;
 
-    public Test (JonathansVisual jv)
+    public BoxedSphere (JonathansVisual jv)
     {
         this.jv = jv; 
         cx = this.jv.width;
@@ -114,4 +114,3 @@ public class Test
 
     }
 }
-

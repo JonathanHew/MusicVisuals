@@ -13,6 +13,7 @@ public class JonathansVisual extends Visual
     Circle cir;
     Test test;
     CircleWaveForm cwf;
+    BoxedSphere bsp;
 
     int which = 0;
 
@@ -37,6 +38,7 @@ public class JonathansVisual extends Visual
         cir = new Circle(this);
         test = new Test(this);
         cwf = new CircleWaveForm(this);
+        bsp = new BoxedSphere(this);
     }
 
     public void keyPressed()
@@ -93,13 +95,18 @@ public class JonathansVisual extends Visual
             {
                 cub.render();
                 break;
-            }
+            }//end case 2
             case 3:
             {
                 cir.render();
                 
                 break;
-            }
+            }//end case 3
+            case 4:
+            {
+                bsp.render();
+                break;
+            }//end case 4 
             case 6:
             {
                 
