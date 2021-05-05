@@ -29,7 +29,7 @@ public class BoxedSphere
         jv.lights();
         jv.strokeWeight(2);
         float c = PApplet.map(jv.getSmoothedAmplitude(), 0, 1, 0, 255);
-        jv.stroke(c, 75, 255);
+        jv.stroke(c, 75,255);
         jv.noFill();
         //jv.fill(c, 255, 255);
         angle += 0.01f;

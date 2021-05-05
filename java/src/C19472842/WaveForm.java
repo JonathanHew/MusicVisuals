@@ -7,12 +7,12 @@ public class WaveForm
 {
     JonathansVisual jv;
     float cy = 0;
+    float[] lerpedBuffer;
 
     public WaveForm(JonathansVisual jv)
     {
         this.jv = jv;
         cy = this.jv.height;
-
 
     }
 

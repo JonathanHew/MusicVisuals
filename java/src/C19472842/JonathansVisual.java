@@ -31,7 +31,7 @@ public class JonathansVisual extends Visual
         startMinim();
 
         // Call loadAudio to load an audio file to process 
-        loadAudio("heroplanet.mp3"); 
+        loadAudio("hooligan.mp3"); 
 
         wf = new WaveForm(this);
         abv = new AudioBandsVisual(this);
