@@ -15,6 +15,7 @@ public class JonathansVisual extends Visual
     CircleWaveForm cwf;
     BoxedSphere bsp;
     CircledSphere csp;
+    Welcome wel;
 
     int which = 0;
 
@@ -41,6 +42,7 @@ public class JonathansVisual extends Visual
         cwf = new CircleWaveForm(this);
         bsp = new BoxedSphere(this);
         csp = new CircledSphere(this);
+        wel = new Welcome(this);
     }
 
     public void keyPressed()
@@ -82,12 +84,6 @@ public class JonathansVisual extends Visual
 
         switch (which)
         {
-            case 0:
-            {
-                wf.render();
-                abv.render();
-                break;
-            }//end case 0
             case 1:
             {
                 cwf.render();
@@ -120,6 +116,10 @@ public class JonathansVisual extends Visual
                 
                 csp.render();
                 break;
+            }
+            default:
+            {
+                wel.render();
             }
         }//end switch
     }
