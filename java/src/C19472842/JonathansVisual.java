@@ -111,13 +111,14 @@ public class JonathansVisual extends Visual
             }//end case 4 
             case 5:
             {
-                csp.render();
+                wf.render();
+                abv.render();
                 break;
             }
             case 6:
             {
                 
-                test.render();
+                csp.render();
                 break;
             }
         }//end switch

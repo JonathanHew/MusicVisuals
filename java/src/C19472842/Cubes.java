@@ -6,6 +6,7 @@ public class Cubes
 {
     JonathansVisual jv;
     float angle = 0;
+    float angle2 = 0;
     float cy = 0;
     float cx = 0;
 
@@ -26,7 +27,8 @@ public class Cubes
         jv.stroke(c, 255, 255);
         //jv.noFill();
         jv.fill(c, 255, 255);
-        angle += 0.01f;
+        angle += 0.05f;
+        angle2 -= 0.05f;
         float s = 100 + (100 * jv.getSmoothedAmplitude() * 10);
 
         jv.pushMatrix();
@@ -38,8 +40,8 @@ public class Cubes
 
         jv.pushMatrix();
         jv.translate(cx * 0.75f, cy / 2, 0);
-        jv.rotateY(angle);
-        jv.rotateX(angle);
+        jv.rotateY(angle2);
+        jv.rotateX(angle2);
         jv.box(s);
         jv.popMatrix();
     }//end render 
