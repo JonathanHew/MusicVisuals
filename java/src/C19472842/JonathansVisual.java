@@ -54,6 +54,11 @@ public class JonathansVisual extends Visual
     
         }
 
+        if(key == 'r') {
+            // Rewinds the song 
+            getAudioPlayer().cue(0);
+        }
+
         if (key >= '0' && key <= '6')
         {
             which = key - '0';
