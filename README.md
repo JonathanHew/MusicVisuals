@@ -17,6 +17,10 @@ For this assignment I had to create a visual art piece which would respond to th
 The song i chose for this assignment was Hooligan by Baby Keem. I chose this song because i really liked the instrumental in it. Thesong has a very simplistic feel- with a gorgeous piano introduction and a simple beat. The song wonderfully sticks to a basic feel, making it instantly catchy. It doesn’t rely on hard drops to make the song stick on the mind. The calm flow throughout the song is exactly what i needed to fulfill my goal of having the user calm and free minded.
 
 In this assignment i used both 2D and 3D visuals and lots of colors. These shapes and color change accordingly to the amplitude and frequency of the song being played. 
+
+# Youtube Video Link 
+[![YouTube](http://img.youtube.com/vi/ytrB2xwXVyQ/0.jpg)](https://www.youtube.com/watch?v=ytrB2xwXVyQ)
+
 # Instructions
 This was compiled and ran on MAC.
 

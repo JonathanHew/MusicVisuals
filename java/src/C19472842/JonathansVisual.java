@@ -100,7 +100,6 @@ public class JonathansVisual extends Visual
             case 3:
             {
                 cir.render();
-                
                 break;
             }//end case 3
             case 4:
