@@ -24,10 +24,10 @@ public class CircledSphere
         float c = PApplet.map(jv.getSmoothedAmplitude(), 0, 1, 0, 255);
         jv.stroke(c, 255, 180);
         jv.noFill();
-        //jv.fill(c, 255, 255);
         angle += 0.01f;
         float s = 50 + (75 * jv.getSmoothedAmplitude() * 10);
         
+        //creating sphere in centre
         jv.pushMatrix();
         jv.translate(cx/2,cy/2,0);
         jv.rotateY(angle);
@@ -36,6 +36,7 @@ public class CircledSphere
         jv.sphere(s);
         jv.popMatrix();
 
+        //creating cicles which surround the sphere 
         jv.strokeWeight(5);
         for(int i = 1000; i < 5000; i=i+1000)
         {

@@ -1,6 +1,5 @@
 package C19472842;
 
-import processing.core.*;
 
 public class Welcome {
     JonathansVisual jv;

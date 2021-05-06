@@ -25,12 +25,12 @@ public class Cubes
         jv.strokeWeight(2);
         float c = PApplet.map(jv.getSmoothedAmplitude(), 0, 1, 0, 255);
         jv.stroke(c, 255, 255);
-        //jv.noFill();
         jv.fill(c, 255, 255);
         angle += 0.05f;
         angle2 -= 0.05f;
         float s = 100 + (100 * jv.getSmoothedAmplitude() * 10);
 
+        //creating cube 1
         jv.pushMatrix();
         jv.translate(cx / 4, cy / 2, 0);
         jv.rotateY(angle);
@@ -38,6 +38,7 @@ public class Cubes
         jv.box(s);
         jv.popMatrix();
 
+        //creating cube 2
         jv.pushMatrix();
         jv.translate(cx * 0.75f, cy / 2, 0);
         jv.rotateY(angle2);

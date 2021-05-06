@@ -2,12 +2,10 @@ package C19472842;
 
 import processing.core.*;
 
-// This is an example of a visual that renders the waveform
 public class WaveForm
 {
     JonathansVisual jv;
     float cy = 0;
-    float[] lerpedBuffer;
 
     public WaveForm(JonathansVisual jv)
     {
@@ -19,6 +17,7 @@ public class WaveForm
     public void render()
     {
         jv.colorMode(PApplet.HSB);
+        //creating the waveform 
         for(int i = 0 ; i < jv.getAudioBuffer().size() ; i ++)
         {
             jv.stroke(

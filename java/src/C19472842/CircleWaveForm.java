@@ -7,9 +7,6 @@ public class CircleWaveForm {
     float angle = 0;
     float cy = 0;
     float cx = 0;
-    float[] lerpedBuffer;
-
-    
 
     public CircleWaveForm(JonathansVisual jv)
     {
@@ -21,6 +18,7 @@ public class CircleWaveForm {
     public void render()
     {
         jv.colorMode(PApplet.HSB);
+        //creating the 2 waveforms 
         for(int i = 0 ; i < jv.getAudioBuffer().size() ; i ++)
         {
             jv.stroke(
@@ -39,8 +37,8 @@ public class CircleWaveForm {
         jv.stroke(c, 180, 255);        
         jv.strokeWeight(2);
         jv.noFill();
-        //jv.fill(c, 255, 255);
 
+        //creating circle in the centre of the screen
         for(int i = 0; i < 1000; i++)
         {
             jv.ellipse(jv.width / 2, jv.height / 2,  + (jv.getSmoothedAmplitude() * i + 50),  + (jv.getSmoothedAmplitude() * i + 50));

@@ -1,8 +1,6 @@
 package C19472842;
 
 import ie.tudublin.*;
-import example.*;
-
 
 public class JonathansVisual extends Visual
 {
@@ -11,7 +9,6 @@ public class JonathansVisual extends Visual
     AudioBandsVisual abv;
     Cubes cub;
     Circle cir;
-    Test test;
     CircleWaveForm cwf;
     BoxedSphere bsp;
     CircledSphere csp;
@@ -38,7 +35,6 @@ public class JonathansVisual extends Visual
         abv = new AudioBandsVisual(this);
         cub = new Cubes(this);
         cir = new Circle(this);
-        test = new Test(this);
         cwf = new CircleWaveForm(this);
         bsp = new BoxedSphere(this);
         csp = new CircledSphere(this);
@@ -63,8 +59,6 @@ public class JonathansVisual extends Visual
     {
         colorMode(HSB);
         background(0);
-        //blue color
-        //background(135,206,250);
         try
         {
             // Call this if you want to use FFT data
@@ -79,9 +73,8 @@ public class JonathansVisual extends Visual
 
         // Call this is you want to get the average amplitude
         calculateAverageAmplitude();        
-        //wf.render();
-        //abv.render();
 
+        //switch case to choose between visuals
         switch (which)
         {
             case 1:
@@ -110,17 +103,17 @@ public class JonathansVisual extends Visual
                 wf.render();
                 abv.render();
                 break;
-            }
+            }//end case 5
             case 6:
             {
                 
                 csp.render();
                 break;
-            }
+            }//end case 6
             default:
             {
                 wel.render();
-            }
+            }//end default
         }//end switch
     }
 }
