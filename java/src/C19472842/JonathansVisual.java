@@ -45,8 +45,13 @@ public class JonathansVisual extends Visual
     {
         if (key == ' ')
         {
-            getAudioPlayer().cue(0);
-            getAudioPlayer().play();
+            if (getAudioPlayer().isPlaying()) {
+                getAudioPlayer().pause();
+            }
+            else {
+                getAudioPlayer().play();
+            }
+    
         }
 
         if (key >= '0' && key <= '6')
