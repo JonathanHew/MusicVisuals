@@ -37,8 +37,8 @@ public class CircledSphere
         jv.popMatrix();
 
         //creating cicles which surround the sphere 
-        jv.strokeWeight(5);
-        for(int i = 1000; i < 5000; i=i+1000)
+        jv.strokeWeight(7);
+        for(int i = 2000; i < 6000; i=i+1000)
         {
             jv.ellipse(jv.width / 2, jv.height / 2,  + (250 + jv.getSmoothedAmplitude() * i),  + (250 + jv.getSmoothedAmplitude() * i));
             
