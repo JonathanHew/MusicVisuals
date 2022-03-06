@@ -4,12 +4,6 @@ Name: Jonathan Hew
 
 Student Number: C19472842
 
-## Instructions
-- Fork this repository and use it a starter project for your assignment
-- Create a new package named your student number and put all your code in this package.
-- You should start by creating a subclass of ie.tudublin.Visual
-- There is an example visualiser called MyVisual in the example package
-- Check out the WaveForm and AudioBandsVisual for examples of how to call the Processing functions from other classes that are not subclasses of PApplet
 
 # Description of the assignment
 For this assignment I had to create a visual art piece which would respond to the music that was being played. We were given the line "Something beautiful to enjoy while listening to music" which I had to follow. My goal was to make a visual which would leave the listener almost lost in a trance while listening to the music. I wanted the visual to free the mind of the listener so they could fully enjoy the music. I decided to make 6 different visual arts inpired by a particular song. 
