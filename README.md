@@ -19,7 +19,8 @@ The song i chose for this assignment was Hooligan by Baby Keem. I chose this son
 In this assignment i used both 2D and 3D visuals and lots of colors. These shapes and color change accordingly to the amplitude and frequency of the song being played. 
 
 # Youtube Video Link 
-[![YouTube](http://img.youtube.com/vi/ytrB2xwXVyQ/0.jpg)](https://www.youtube.com/watch?v=ytrB2xwXVyQ)
+Please click the video image below to view the demo.
+[![YouTube](http://img.youtube.com/vi/gE4DZEgoQW8/0.jpg)](https://youtu.be/gE4DZEgoQW8)
 
 # Instructions
 This was compiled and ran on MAC.
