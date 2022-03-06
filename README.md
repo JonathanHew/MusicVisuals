@@ -20,6 +20,7 @@ In this assignment i used both 2D and 3D visuals and lots of colors. These shape
 
 # Youtube Video Link 
 Please click the video image below to view the demo.
+
 [![YouTube](http://img.youtube.com/vi/gE4DZEgoQW8/0.jpg)](https://youtu.be/gE4DZEgoQW8)
 
 # Instructions
